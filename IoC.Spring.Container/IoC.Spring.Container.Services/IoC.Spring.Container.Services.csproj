@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IoC.Spring.Container.Models\IoC.Spring.Container.Models.csproj">
+      <Project>{87ECE1C1-C813-466E-B66C-EE4372ED70FA}</Project>
+      <Name>IoC.Spring.Container.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IoC.Spring.Container.Repositories\IoC.Spring.Container.Repositories.csproj">
       <Project>{F95063F9-2FAD-47DE-89C2-33268A38EB3C}</Project>
       <Name>IoC.Spring.Container.Repositories</Name>

@@ -13,8 +13,8 @@ namespace IoC.Spring.Container.Controllers
 
         public ActionResult Index()
         {
-
-            return View();
+            var usuarios = this.UsuariosService.GetAll();
+            return View(usuarios);
         }
 
     }

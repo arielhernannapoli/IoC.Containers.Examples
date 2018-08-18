@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IoC.Spring.Container.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace IoC.Spring.Container.Services.Interfaces
 {
     public interface IUsuariosService
     {
-
+        IList<Usuario> GetAll();
     }
 }
