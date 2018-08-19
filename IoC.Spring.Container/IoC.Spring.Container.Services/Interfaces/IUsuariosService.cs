@@ -10,5 +10,8 @@ namespace IoC.Spring.Container.Services.Interfaces
     public interface IUsuariosService
     {
         IList<Usuario> GetAll();
+        void AddNew(Usuario usuario);
+        void Delete(int id);
+        void Update(Usuario usuario);
     }
 }

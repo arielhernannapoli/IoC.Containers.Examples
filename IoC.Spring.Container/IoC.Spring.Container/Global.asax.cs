@@ -1,4 +1,5 @@
-﻿using IoC.Spring.Container.IoC;
+﻿using AutoMapper;
+using IoC.Spring.Container.IoC;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,12 @@ namespace IoC.Spring.Container
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             ControllerBuilder.Current.SetControllerFactory(typeof(SpringControllerFactory));
+
+            Mapper.Initialize(cfg =>
+                cfg.AddProfiles(new[] {
+                    "IoC.Spring.Container.Services",
+                    "IoC.Spring.Container"
+            }));
         }
     }
 }
