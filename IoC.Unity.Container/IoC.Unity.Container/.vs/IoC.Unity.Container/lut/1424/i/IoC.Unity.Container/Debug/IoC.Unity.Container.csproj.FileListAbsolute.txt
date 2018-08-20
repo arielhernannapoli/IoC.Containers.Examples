@@ -1,0 +1,8 @@
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container\bin\ApplicationInsights.config
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container\bin\IoC.Unity.Container.dll.config
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container\bin\IoC.Unity.Container.dll
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container\bin\IoC.Unity.Container.pdb
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container\Debug\IoC.Unity.Container.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container\Debug\IoC.Unity.Container.csproj.CopyComplete
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container\Debug\IoC.Unity.Container.dll
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container\Debug\IoC.Unity.Container.pdb

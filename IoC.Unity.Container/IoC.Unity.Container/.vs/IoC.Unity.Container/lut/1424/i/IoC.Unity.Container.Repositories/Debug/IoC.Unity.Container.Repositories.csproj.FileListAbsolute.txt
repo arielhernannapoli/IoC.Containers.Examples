@@ -1,0 +1,7 @@
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container.Repositories\bin\Debug\IoC.Unity.Container.Repositories.dll.config
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container.Repositories\bin\Debug\IoC.Unity.Container.Repositories.dll
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\b\IoC.Unity.Container.Repositories\bin\Debug\IoC.Unity.Container.Repositories.pdb
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container.Repositories\Debug\IoC.Unity.Container.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container.Repositories\Debug\IoC.Unity.Container.Repositories.csproj.CopyComplete
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container.Repositories\Debug\IoC.Unity.Container.Repositories.dll
+C:\Users\ariel\Desktop\Code\IoC.Containers.Examples\IoC.Unity.Container\IoC.Unity.Container\.vs\IoC.Unity.Container\lut\0\i\IoC.Unity.Container.Repositories\Debug\IoC.Unity.Container.Repositories.pdb

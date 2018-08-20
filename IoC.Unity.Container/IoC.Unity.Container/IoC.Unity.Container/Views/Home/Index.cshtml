@@ -1,0 +1,39 @@
+﻿@model IList<IoC.Unity.Container.Models.Usuario>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Example of IoC Spring Container</h1>
+</div>
+
+<div class="row">
+    @Html.ActionLink("Crear usuario", "Create", null, new { @class="btn btn-primary" })
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Documento</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+            <tr>
+                <th scope="row">@usuario.Id</th>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Apellido</td>
+                <td>@usuario.Documento</td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = usuario.Id }, new { @class = "btn btn-secondary" })
+                    @Html.ActionLink("Borrar", "Delete", new { id = usuario.Id }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
