@@ -1,0 +1,24 @@
+﻿@model IoC.Autofac.Container.Models.Usuario
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Id,  new { @class = "form-control" })
+
+    @Html.LabelFor(m => m.Nombre)
+    @Html.TextBoxFor(m => m.Nombre, null, new { @class = "form-control" })
+
+    @Html.LabelFor(m => m.Apellido)
+    @Html.TextBoxFor(m => m.Apellido, null, new { @class = "form-control" })
+
+    @Html.LabelFor(m => m.Documento)
+    @Html.TextBoxFor(m => m.Documento, null, new { @class = "form-control" })
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
+}
+
