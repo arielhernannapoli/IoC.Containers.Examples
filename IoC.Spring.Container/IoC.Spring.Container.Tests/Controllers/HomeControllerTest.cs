@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using IoC.Spring.Container.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using IoC.Spring.Container;
-using IoC.Spring.Container.Controllers;
+using System.Collections.Generic;
+using System.Web.Mvc;
 
 namespace IoC.Spring.Container.Tests.Controllers
 {
@@ -15,20 +11,19 @@ namespace IoC.Spring.Container.Tests.Controllers
         [TestMethod]
         public void Index()
         {
-            // Arrange
             HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.Index() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
+            controller.UsuariosService = new Mocks.MockUsuariosService();
+            ViewResult viewResult = controller.Index() as ViewResult;
+            Assert.AreEqual(((IList<Models.Usuario>)viewResult.Model).Count, 1);
         }
 
         [TestMethod]
-        public void About()
+        public void Create()
         {
-
+            HomeController controller = new HomeController();
+            controller.UsuariosService = new Mocks.MockUsuariosService();
+            RedirectToRouteResult redirectResult = controller.Create(new Models.Usuario() { Id = 2, Nombre = "Pepe", Apellido = "Argento", Documento = "09387837" }) as RedirectToRouteResult;
+            Assert.IsTrue(redirectResult.RouteValues["action"].Equals("Index"));
         }
 
         [TestMethod]

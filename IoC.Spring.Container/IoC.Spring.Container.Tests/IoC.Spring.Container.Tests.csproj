@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mocks\MockUsuariosService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -99,6 +100,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IoC.Spring.Container.Models\IoC.Spring.Container.Models.csproj">
+      <Project>{87ece1c1-c813-466e-b66c-ee4372ed70fa}</Project>
+      <Name>IoC.Spring.Container.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IoC.Spring.Container.Repositories\IoC.Spring.Container.Repositories.csproj">
+      <Project>{f95063f9-2fad-47de-89c2-33268a38eb3c}</Project>
+      <Name>IoC.Spring.Container.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IoC.Spring.Container.Services\IoC.Spring.Container.Services.csproj">
+      <Project>{db34228d-fe4b-47d7-bf11-3b4b5e9f0096}</Project>
+      <Name>IoC.Spring.Container.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IoC.Spring.Container\IoC.Spring.Container.csproj">
       <Project>{FA4CF168-14E5-43F0-AD3D-2D1B46FE21B3}</Project>
       <Name>IoC.Spring.Container</Name>

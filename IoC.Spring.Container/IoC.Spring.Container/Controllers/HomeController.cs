@@ -1,8 +1,5 @@
 ﻿using IoC.Spring.Container.Services.Interfaces;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace IoC.Spring.Container.Controllers
@@ -25,7 +22,7 @@ namespace IoC.Spring.Container.Controllers
         [HttpPost]
         public ActionResult Create(Models.Usuario model)
         {
-            if(model.Id.Equals("0"))
+            if(model.Id.ToString() == "0")
             {
                 this.UsuariosService.AddNew(model);
             }
